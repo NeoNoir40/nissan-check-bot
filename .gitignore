@@ -1,0 +1,58 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Build / dist (si usas TS, Babel, Vite, etc.)
+dist/
+build/
+.out/
+
+# Coverage (tests)
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.tmp/
+.eslintcache
+.parcel-cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.swp
+
+# Docker (si aplica)
+.docker/
+docker-data/
+
+# SQLite / bases locales
+*.sqlite
+*.sqlite3
+*.db
+
+# PM2
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Uploads temporales
+uploads/*
+!uploads/.gitkeep
